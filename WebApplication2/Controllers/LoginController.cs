@@ -23,6 +23,7 @@ namespace WebApplication2.Controllers
         public LoginController(IConfiguration config)
         {
             _config = config;
+            //aqui no construtor vc pode receber a instancia de banco de dados pela injeção de dependencia 
         }
 
        
